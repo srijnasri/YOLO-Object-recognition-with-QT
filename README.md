@@ -4,4 +4,5 @@ This is an algorithm that detects and recognizes various objects in a picture (i
 
 YOLOv3 is used in this project. It was trained on COCO dataset which has over 80 classes.
 Performance with CPU as the target we can only process some frames per second(3fps approx), but its easy to configure. On the other hand, using GPU increases the speed to 45fps.
+
 The GUI application is made through Qtgui. It enables user to give image input, video input as well as real time camera input through webcam. User can give input through command line arguments or he/she can select the file from directory
